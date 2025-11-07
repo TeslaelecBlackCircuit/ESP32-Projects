@@ -53,7 +53,8 @@ It allows you to connect everyday electronics to the internet — making smart s
 - ESP32 Module
 - USB to USART TTL
 - and so end
-  
+
+
 ### 📝 ESP32 Project Requirements
 1. Hardware
 
