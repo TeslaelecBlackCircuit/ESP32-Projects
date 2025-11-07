@@ -53,7 +53,8 @@ It allows you to connect everyday electronics to the internet — making smart s
 - ESP32 Module
 - USB to USART TTL
 - and so end
-📝 ESP32 Project Requirements
+  
+### 📝 ESP32 Project Requirements
 1. Hardware
 
 - ESP32 board (examples: ESP32-WROOM-32, ESP32-WROVER, ESP32-S2, ESP32-C3)
@@ -84,7 +85,7 @@ It allows you to connect everyday electronics to the internet — making smart s
 
 4. Knowledge / Skills
 
-C / C++ programming
+- C / C++ programming
 - Embedded programming concepts:
 - GPIO control, ADC/DAC, PWM, Timers, Interrupts
 - FreeRTOS tasks and synchronization (optional but recommended)
