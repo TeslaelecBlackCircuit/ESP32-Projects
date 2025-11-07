@@ -56,42 +56,42 @@ It allows you to connect everyday electronics to the internet — making smart s
 
 ---
 ### 📝 ESP32 Project Requirements
-1. Hardware
-- ESP32 board (examples: ESP32-WROOM-32, ESP32-WROVER, ESP32-S2, ESP32-C3)
-- Peripherals / Modules depending on the project:
-- LEDs, buttons, keypads, sensors (temperature, humidity, IMU)
-- OLED / TFT / LCD displays
-- SD card or SPI flash modules
-- I2C / SPI devices (EEPROM, ADC, DAC, etc.)
-- Motors / Servos (PWM control)
-- CAN / BLE / Wi-Fi connectivity modules (if not onboard)
+1. 🖥️ Hardware
+🟢 ESP32 board (examples: ESP32-WROOM-32, ESP32-WROVER, ESP32-S2, ESP32-C3)
+🔌 Peripherals / Modules depending on the project:
+💡 LEDs, 🔘 buttons, ⌨️ keypads, 🌡️ sensors (temperature, humidity, IMU)
+🖥️ OLED / TFT / LCD displays
+💾 SD card or SPI flash modules
+🔗 I2C / SPI devices (EEPROM, ADC, DAC, etc.)
+🏎️ Motors / Servos (PWM control)
+📡 CAN / BLE / Wi-Fi connectivity modules (if not onboard)
 
-2. Software / Toolchain
-- ESP-IDF (Espressif IoT Development Framework)
-- Required for most advanced C projects, FreeRTOS support, Wi-Fi/BLE, deep sleep, peripherals
-- Arduino IDE / PlatformIO (optional)
-- Simplified C/C++ development for many GPIO, sensor, and display projects
-- Compiler / Toolchain
-- GCC for Xtensa or RISC-V (depending on ESP32 variant)
-- Python 3.x (required for ESP-IDF build system)
+3. 🛠️ Software / Toolchain
+⚙️ ESP-IDF (Espressif IoT Development Framework)
+Required for most advanced C projects, FreeRTOS support, Wi-Fi/BLE, peripherals
+📝 Arduino IDE / PlatformIO (optional)
+Simplified C/C++ development for GPIO, sensors, and displays
+🖱️ Compiler / Toolchain
+GCC for Xtensa or RISC-V (depending on ESP32 variant)
+🐍 Python 3.x (required for ESP-IDF build system)
 
-3. Libraries / Dependencies
-- Peripheral drivers (ADC, DAC, PWM, I2C, SPI, UART, I2S, CAN, etc.)
-- Display libraries (U8g2, TFT_eSPI)
-- Sensor libraries (Adafruit Sensor libraries, MPU6050, BME280, etc.)
-- Networking / IoT libraries (MQTT, HTTP client, WebSocket, BLE libraries)
+4. 📚 Libraries / Dependencies
+Peripheral drivers (ADC, DAC, PWM, I2C, SPI, UART, I2S, CAN, etc.)
+🖥️ Display libraries (U8g2, TFT_eSPI)
+🌡️ Sensor libraries (Adafruit Sensor libraries, MPU6050, BME280, etc.)
+🌐 Networking / IoT libraries (MQTT, HTTP client, WebSocket, BLE libraries)
 
-4. Knowledge / Skills
-- C / C++ programming
-- Embedded programming concepts:
-- GPIO control, ADC/DAC, PWM, Timers, Interrupts
-- FreeRTOS tasks and synchronization (optional but recommended)
-- Power management (deep sleep, wakeup)
-- Communication protocols: UART, SPI, I2C, CAN, BLE, Wi-Fi
-- Basic electronics for sensor interfacing and motor control
+5. 🧠 Knowledge / Skills
+💻 C / C++ programming
+🛠️ Embedded programming concepts:
+🔌 GPIO control, 🌡️ ADC/DAC, 🏎️ PWM, ⏱️ Timers, ⚡ Interrupts
+🕹️ FreeRTOS tasks and synchronization (optional but recommended)
+🔋 Power management (deep sleep, wakeup)
+🔗 Communication protocols: UART, SPI, I2C, CAN, BLE, Wi-Fi
+⚡ Basic electronics for sensor interfacing and motor control
 
-5. Optional Tools
-- Serial terminal (e.g., PuTTY, minicom) for debugging
-- Oscilloscope / Logic analyzer (for advanced peripheral debugging)
-- Git / GitHub (to clone and manage open-source projects)
-- PlatformIO (for easier project management and library integration)
+6. 🧰 Optional Tools
+💬 Serial terminal (e.g., PuTTY, minicom) for debugging
+📊 Oscilloscope / Logic analyzer (for advanced peripheral debugging)
+🐙 Git / GitHub (to clone and manage open-source projects)
+⚡ PlatformIO (for easier project management and library integration)
